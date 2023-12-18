@@ -15,6 +15,16 @@ footer{
 p{
     margin: 0;
 }
+main{
+    justify-content: center;
+}
+
+.ceroPadding {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+}
 
 @media all and (max-width:767px){
     .alturaImgC{
