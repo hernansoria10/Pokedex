@@ -92,12 +92,51 @@ main{
 li{
     list-style: none;
 }
+.fontSize{
+    font-size: 30px;
+}
+
+
+.imgNos{
+    border-radius: 50%;
+    width: 30vw;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+}
 
 @media all and (max-width:767px){
     .alturaImgC{
        
         object-fit: contain;
     }
+    .fontSize{
+        font-size: 15px;
+    }
+    .imgNos{
+        border-radius: 50%;
+        width: 80vw;
+    }
     
     
+}
+
+@media all and (min-width:768px) and (max-width){
+    .alturaImgC{
+       
+        object-fit: contain;
+    }
+    .fontSize{
+        font-size: 30px;
+    }
+    .imgNos{
+        border-radius: 50%;
+        width: 60vw;
+    }
+
 }
