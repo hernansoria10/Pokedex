@@ -60,7 +60,7 @@ main {
 }
 .tipoPsiquico {
   border: 1px;
-  border-radius: 4px;
+  border-radius: 60px;
   padding: 3%;
   background-color: rgb(245, 108, 227);
 }
