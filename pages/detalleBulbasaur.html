@@ -3,20 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
   </head>
   <body>
-    <header class="bg-danger">
+    <header>
       <nav class="navbar navbar-expand-lg bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#">Pokedex</a>
+          <a class="navbar-brand text-light" href="../index.html">Pokedex</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -37,7 +44,7 @@
                 <a
                   class="nav-link active text-light"
                   aria-current="page"
-                  href="#"
+                  href="../index.html"
                   >Inicio</a
                 >
               </li>
@@ -73,7 +80,7 @@
         </div>
       </nav>
     </header>
-    <main>
+     <main>
       <section class="container-fluid my-3">
         <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
@@ -101,21 +108,21 @@
           <div class="carousel-inner">
             <div class="carousel-item active alturaImgC">
               <img
-                src="./img/charizdarCarousel.webp"
+                src="../img/carrouselPkm.jpg"
                 class="d-block alturaImgC"
                 alt="..."
               />
             </div>
             <div class="carousel-item">
               <img
-                src="./img/ChSqBu.jpg"
+                src="../img/charizdarCarousel.webp"
                 class="d-block alturaImgC"
                 alt="..."
               />
             </div>
             <div class="carousel-item">
               <img
-                src="./img/logoPoke.jpg!d"
+                src="../img/logoPoke.jpg!d"
                 class="d-block alturaImgC"
                 alt="..."
               />
@@ -140,80 +147,100 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+    
       </section>
-      <section class="container-fluid row ceroPadding justify-content-center">
-        <div class="card col-lg-3 col-md-4 mx-2 my-2" style="width: 18rem">
-          <img src="./img/bulbasaur.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="text-secondary">N°0001</p>
-            <h5 class="card-title">Bulbasaur</h5>
-
-            <a href="pages/detalleBulbasaur.html" class="btn btn-primary">Ver detalle</a>
+      <section class="detalle container-fluid text-center">
+        <h1>Bulbasaur <span class="text-secondary">N°0001</span></h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="../img/bulbasaurDetalle.png  " alt="Bulbasaur" class="imgDetalle"/>
           </div>
-        </div>
-        <div class="card col-lg-3 col-md-4 mx-2 my-2" style="width: 18rem">
-          <img src="./img/ivysaur.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="text-secondary">N°0002</p>
-            <h5 class="card-title">Ivysaur</h5>
-
-            <a href="#" class="btn btn-primary">Ver detalle</a>
+          
+          <div class="col-lg-6">
+            <p class="my-3">
+              Este Pokemon nace con una semilla en el lomo, que brota con el
+              paso del tiempo
+            </p>
+            <div class="versionTitulo">
+              <h6 class="border-bottom justify-content-start">version</h6>
+              <div class="flexStats">
+                <div class="stats">
+                  <ul>
+                    <li class="text-light">Altura</li>
+                    <li>0,7m</li>
+                  </ul>
+                </div>
+                <div class="stats">
+                  <ul>
+                    <li class="text-light">Categoría</li>
+                    <li>Semilla</li>
+                  </ul>
+                </div>
+                <div class="stats">
+                  <ul>
+                    <li class="text-light">Peso</li>
+                    <li>6,9 kg</li>
+                  </ul>
+                </div>
+                <div class="stats mb-2">
+                  <ul>
+                    <li class="text-light">Habilidad</li>
+                    <li>Espesura</li>
+                  </ul>
+                </div>
+                <div class="stats">
+                  <ul>
+                    <li class="text-light">sexo</li>
+                    <li>
+                      <i class="fa-solid fa-mars" style="color: #02060d"></i>
+                      <i class="fa-solid fa-venus"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <ul>
+                <li class="mb-3 d-flex"><b>Tipo</b></li>
+                <li>
+                  <span class="tipoPlanta mx-2 text-light">Planta</span
+                  ><span class="tipoVeneno mx-2 text-light">Veneno</span>
+                </li>
+              </ul>
+            </div>
+            <div class="d-flex">
+              <ul>
+                <li class="mb-3 d-flex"><b>Debilidad</b></li>
+                <li class="liFlex">
+                  <span class="tipoFuego mx-2 text-light mb-2">Fuego</span
+                  ><span class="tipoPsiquico mx-2 text-light">Psiquico</span
+                  ><span class="tipoVolador mx-2 text-light">Volador</span
+                  ><span class="tipoHielo mx-2 text-light">Hielo</span>
+                </li>
+              </ul>
+            </div>
           </div>
+       
         </div>
-        <div class="card col-lg-3 col-md-4 mx-2 my-2" style="width: 18rem">
-          <img src="./img/venasaur.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="text-secondary">N°0003</p>
-            <h5 class="card-title">Venasaur</h5>
-
-            <a href="#" class="btn btn-primary">Ver detalle</a>
+        <div class="row bg-secondary">
+            <h3>Evoluciones</h3>
+            <div class="col-lg-4">
+                <img src="../img/bulbasaur.png" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="../img/ivysaur.png" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="../img/venasaur.png" alt="">
+            </div>
           </div>
-        </div>
-        <div class="card col-lg-3 col-md-4 mx-2 my-2" style="width: 18rem">
-          <img src="./img/charmander.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="text-secondary">N°0004</p>
-            <h5 class="card-title">Charmander</h5>
-            <a href="#" class="btn btn-primary">Ver detalle</a>
-          </div>
-        </div>
-        <div class="card col-lg-3 col-md-4 mx-2 my-2" style="width: 18rem">
-          <img src="./img/charmeleon.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="text-secondary">N°0005</p>
-            <h5 class="card-title">Charmeleonr</h5>
-            <a href="#" class="btn btn-primary">Ver detalle</a>
-          </div>
-        </div>
-        <div class="card col-lg-3 col-md-4 mx-2 my-2" style="width: 18rem">
-          <img src="./img/charizard.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="text-secondary">N°0006</p>
-            <h5 class="card-title">Charizard</h5>
-            <a href="#" class="btn btn-primary">Ver detalle</a>
-          </div>
-        </div>
-        <div class="card col-lg-3 col-md-4 mx-2 my-2" style="width: 18rem">
-          <img src="./img/squirtle.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="text-secondary">N°0007</p>
-            <h5 class="card-title">Squirtle</h5>
-            <a href="#" class="btn btn-primary">Ver detalle</a>
-          </div>
-        </div>
-        <div class="card col-lg-3 col-md-4 mx-2 my-2" style="width: 18rem">
-          <img src="./img/caterpie.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="text-secondary">N°0010</p>
-            <h5 class="card-title">Caterpie</h5>
-            <a href="#" class="btn btn-primary">Ver detalle</a>
-          </div>
-        </div>
       </section>
     </main>
     <footer class="bg-dark footer">
-      <p class="text-light text-center">&copy; Todos los derecehos reservados</p>
-    </footer>
+      <p class="text-light text-center">
+        &copy; Todos los derecehos reservados
+      </p>
+    </footer> 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

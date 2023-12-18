@@ -26,10 +26,78 @@ main{
     padding-left: 25px;
 }
 
+.flexStats{
+    display: flex;
+    background-color: rgb(71, 124, 237);
+    flex-wrap: wrap;
+    border-radius: 3%;
+}
+.versionTitulo{
+    background-color: rgb(71, 124, 237) ;
+}
+.stats{
+    width: 50%;
+}
+
+.tipoPlanta{
+    border: 1px ;
+    border-radius: 4px;
+    padding: 3%;
+    background-color: rgb(127, 223, 127);
+}
+
+.tipoVeneno{
+    border: 1px ;
+    border-radius: 4px;
+    padding: 3%;
+    background-color: rgb(89, 56, 187);
+
+}
+.tipoFuego{
+    border: 1px ;
+    border-radius: 4px;
+    padding: 3%;
+    background-color: rgb(250, 96, 0);
+
+}
+.tipoPsiquico{
+    border: 1px ;
+    border-radius: 4px;
+    padding: 3%;
+    background-color: rgb(245, 108, 227);
+
+}
+.tipoVolador{
+    border: 1px ;
+    border-radius: 4px;
+    padding: 3%;
+    background-color: rgb(192, 191, 192);
+
+}
+.tipoHielo{
+    border: 1px ;
+    border-radius: 4px;
+    padding: 3%;
+    background-color: rgb(0, 200, 255);
+
+}
+.imgDetalle{
+    width: 95%;
+}
+.liFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+}
+
 @media all and (max-width:767px){
     .alturaImgC{
        
         object-fit: contain;
     }
+    
     
 }
