@@ -1,0 +1,13 @@
+.alturaImgC{
+    height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+@media all and (max-width:767px){
+    .alturaImgC{
+       
+        object-fit: contain;
+    }
+    
+}
