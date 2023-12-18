@@ -1,142 +1,143 @@
-.alturaImgC{
-    height: 50vh;
-    width: 100vw;
-    object-fit: cover;
+.alturaImgC {
+  height: 50vh;
+  width: 100vw;
+  object-fit: cover;
 }
 
-footer{
-    padding: 30px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+footer {
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-p{
-    margin: 0;
+p {
+  margin: 0;
 }
-main{
-    justify-content: center;
+main {
+  justify-content: center;
 }
 
 .ceroPadding {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    padding-left: 25px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding-left: 25px;
 }
 
-.flexStats{
-    display: flex;
-    background-color: rgb(71, 124, 237);
-    flex-wrap: wrap;
-    border-radius: 3%;
+.flexStats {
+  display: flex;
+  background-color: rgb(71, 124, 237);
+  flex-wrap: wrap;
+  border-radius: 3%;
 }
-.versionTitulo{
-    background-color: rgb(71, 124, 237) ;
+.versionTitulo {
+  background-color: rgb(71, 124, 237);
 }
-.stats{
-    width: 50%;
-}
-
-.tipoPlanta{
-    border: 1px ;
-    border-radius: 4px;
-    padding: 3%;
-    background-color: rgb(127, 223, 127);
+.stats {
+  width: 50%;
 }
 
-.tipoVeneno{
-    border: 1px ;
-    border-radius: 4px;
-    padding: 3%;
-    background-color: rgb(89, 56, 187);
-
-}
-.tipoFuego{
-    border: 1px ;
-    border-radius: 4px;
-    padding: 3%;
-    background-color: rgb(250, 96, 0);
-
-}
-.tipoPsiquico{
-    border: 1px ;
-    border-radius: 4px;
-    padding: 3%;
-    background-color: rgb(245, 108, 227);
-
-}
-.tipoVolador{
-    border: 1px ;
-    border-radius: 4px;
-    padding: 3%;
-    background-color: rgb(192, 191, 192);
-
-}
-.tipoHielo{
-    border: 1px ;
-    border-radius: 4px;
-    padding: 3%;
-    background-color: rgb(0, 200, 255);
-
-}
-.imgDetalle{
-    width: 95%;
-}
-.liFlex{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-li{
-    list-style: none;
-}
-.fontSize{
-    font-size: 30px;
+.tipoPlanta {
+  border: 1px;
+  border-radius: 60px;
+  padding: 3%;
+  background-color: rgb(127, 223, 127);
 }
 
 
-.imgNos{
+.tipoVeneno {
+  border: 1px;
+  border-radius: 60px;
+  padding: 3%;
+  background-color: rgb(89, 56, 187);
+}
+.tipoFuego {
+  border: 1px;
+  border-radius: 60px;
+  padding: 3%;
+  background-color: rgb(250, 96, 0);
+}
+.tipoPsiquico {
+  border: 1px;
+  border-radius: 4px;
+  padding: 3%;
+  background-color: rgb(245, 108, 227);
+}
+.tipoVolador {
+  border: 1px;
+  border-radius: 60px;
+  padding: 3%;
+  background-color: rgb(192, 191, 192);
+}
+.tipoHielo {
+  border: 1px;
+  border-radius: 60px;
+  padding: 3%;
+  background-color: rgb(0, 200, 255);
+}
+.tipoAgua {
+  border: 1px;
+  border-radius: 60px;
+  padding: 3%;
+  background-color: rgb(6, 0, 181);
+}
+.tipoBicho {
+  border: 1px;
+  border-radius: 60px;
+  padding: 3%;
+  background-color: rgb(6, 97, 0);
+}
+.imgDetalle {
+  width: 95%;
+}
+.liFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+}
+.fontSize {
+  font-size: 30px;
+}
+
+.imgNos {
+  border-radius: 50%;
+  width: 30vw;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+
+@media all and (max-width: 767px) {
+  .alturaImgC {
+    object-fit: contain;
+  }
+  .fontSize {
+    font-size: 15px;
+  }
+  .imgNos {
     border-radius: 50%;
-    width: 30vw;
-}
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-main{
-    flex-grow: 1;
+    width: 80vw;
+  }
 }
 
-@media all and (max-width:767px){
-    .alturaImgC{
-       
-        object-fit: contain;
-    }
-    .fontSize{
-        font-size: 15px;
-    }
-    .imgNos{
-        border-radius: 50%;
-        width: 80vw;
-    }
-    
-    
-}
-
-@media all and (min-width:768px) and (max-width){
-    .alturaImgC{
-       
-        object-fit: contain;
-    }
-    .fontSize{
-        font-size: 30px;
-    }
-    .imgNos{
-        border-radius: 50%;
-        width: 60vw;
-    }
-
+@media all and (min-width: 768px) and (max-width) {
+  .alturaImgC {
+    object-fit: contain;
+  }
+  .fontSize {
+    font-size: 30px;
+  }
+  .imgNos {
+    border-radius: 50%;
+    width: 60vw;
+  }
 }
