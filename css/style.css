@@ -4,6 +4,18 @@
     object-fit: cover;
 }
 
+footer{
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    margin: 0;
+}
+
 @media all and (max-width:767px){
     .alturaImgC{
        
